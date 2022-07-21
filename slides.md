@@ -22,8 +22,6 @@ fonts:
   sans: 'Robot'
   serif: 'Robot Slab'
   mono: 'Fira Code'
-download: true
-exportFilename: 'svelte.pdf'
 
 ---
 
@@ -32,10 +30,6 @@ exportFilename: 'svelte.pdf'
 baseballyama
 
 <div class="abs-br m-6 flex gap-2">
-  <a href="./svelte.pdf" download alt="pdf"
-    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-download />
-  </a>
   <a href="https://github.com/baseballyama/slides-svelte" target="_blank" rel="noopener noreferrer" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
