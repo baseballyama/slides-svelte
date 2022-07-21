@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@iconify-json/logos": "^1.1.8",
+    "node-html-parser": "^5.3.3",
     "playwright-chromium": "^1.23.4"
   }
 }
