@@ -1,0 +1,18 @@
+{
+  "name": "slides-svelte",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /slides-svelte && cp ./404.html ./dist/404.html && node ./modIndex.js",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.34.3",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.8",
+    "playwright-chromium": "^1.23.4"
+  }
+}
